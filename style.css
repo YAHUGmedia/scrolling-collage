@@ -1,0 +1,386 @@
+body {
+    background-image: linear-gradient(rgb(232, 255, 23),
+                                      rgb(185, 255, 23), 
+                                      rgb(23, 255, 93),
+                                      rgb(19, 255, 255),  
+                                      rgb(23, 85, 255),
+                                      rgb(151, 23, 255),
+                                      rgb(255, 43, 244));
+    margin: 2%;
+    min-height: 10000px;
+    animation-name: animation00;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.videogrid {
+    position: fixed;
+    z-index: -1;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    width: 60%;
+    
+}
+
+.video {
+    width: 40%;
+    margin: 1%;
+    filter: drop-shadow(5px 5px rgb(255, 255, 255))
+            drop-shadow(5px 5px rgb(0, 0, 0))
+            drop-shadow(5px 5px rgb(255, 255, 255));
+    animation-name: animation03;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    
+}
+
+.one {
+    display: flex;
+    flex-wrap: wrap;
+    top: 0%;
+    left: 0%;
+    position: fixed;
+    filter: drop-shadow(5px 5px rgb(232, 255, 23))
+            drop-shadow(5px 5px rgb(255, 43, 244))
+            drop-shadow(5px 5px rgb(23, 255, 93));
+    animation-name: animation01;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+.two {
+    display: flex;
+    flex-wrap: wrap;
+    bottom: 0%;
+    left: 0%;
+    position: fixed;
+    filter: drop-shadow(5px -5px rgb(232, 255, 23))
+            drop-shadow(5px -5px rgb(255, 43, 244))
+            drop-shadow(5px -5px rgb(23, 255, 93));
+    animation-name: animation01;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+.three {
+    display: flex;
+    flex-wrap: wrap;
+    top: 0%;
+    right: 0%;
+    position: fixed;
+    filter: drop-shadow(-5px 5px rgb(232, 255, 23))
+            drop-shadow(-5px 5px rgb(255, 43, 244))
+            drop-shadow(-5px 5px rgb(23, 255, 93));
+    animation-name: animation01;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+.four {
+    display: flex;
+    flex-wrap: wrap;
+    bottom: 0%;
+    right: 0%;
+    position: fixed;
+    filter: drop-shadow(-5px -5px rgb(232, 255, 23))
+            drop-shadow(-5px -5px rgb(255, 43, 244))
+            drop-shadow(-5px -5px rgb(23, 255, 93));
+    animation-name: animation01;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+.five {
+    display: flex;
+    flex-wrap: wrap;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    position: fixed;
+    filter: drop-shadow(0px 5px rgb(232, 255, 23))
+            drop-shadow(0px 5px rgb(255, 43, 244))
+            drop-shadow(0px 5px rgb(23, 255, 93));
+    animation-name: animation01;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+.six {
+    display: flex;
+    flex-wrap: wrap;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    position: fixed;
+    filter: drop-shadow(0px -5px rgb(232, 255, 23))
+            drop-shadow(0px -5px rgb(255, 43, 244))
+            drop-shadow(0px -5px rgb(23, 255, 93));
+    animation-name: animation01;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+.seven {
+    position: sticky;
+    top: 30px;
+    mix-blend-mode: difference;
+    filter: drop-shadow(5px 0px rgb(232, 255, 23))
+            drop-shadow(5px 0px rgb(255, 43, 244))
+            drop-shadow(5px 0px rgb(23, 255, 93));
+    animation-name: animation02;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+}
+
+.seven:hover {
+    mix-blend-mode: normal;
+}
+
+
+.eight {
+    position: sticky;
+    top: 30px;
+    mix-blend-mode: difference;
+    filter: drop-shadow(0px 5px rgb(232, 255, 23))
+            drop-shadow(0px 5px rgb(255, 43, 244))
+            drop-shadow(0px 5px rgb(23, 255, 93));
+    animation-name: animation02;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+}
+
+.eight:hover {
+    mix-blend-mode: normal;
+}
+
+
+.nine {
+    position: sticky;
+    top: 30px;
+    mix-blend-mode: difference;
+    filter: drop-shadow(5px 0px rgb(232, 255, 23))
+            drop-shadow(5px 0px rgb(255, 43, 244))
+            drop-shadow(5px 0px rgb(23, 255, 93));
+    animation-name: animation02;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+}
+
+.nine:hover {
+    mix-blend-mode: normal;
+}
+
+
+.ten {
+    position: sticky;
+    top: 30px;
+    mix-blend-mode: difference;
+    filter: drop-shadow(0px 5px rgb(232, 255, 23))
+            drop-shadow(0px 5px rgb(255, 43, 244))
+            drop-shadow(0px 5px rgb(23, 255, 93));
+    animation-name: animation02;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+}
+
+.ten:hover {
+    mix-blend-mode: normal;
+}
+
+
+.eleven {
+    position: sticky;
+    top: 600px;
+    mix-blend-mode: difference;
+    filter: drop-shadow(5px 0px rgb(232, 255, 23))
+            drop-shadow(5px 0px rgb(255, 43, 244))
+            drop-shadow(5px 0px rgb(23, 255, 93));
+    animation-name: animation02;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+}
+
+.eleven:hover {
+    mix-blend-mode: normal;
+}
+
+
+.twelve {
+    position: sticky;
+    top: 600px;
+    mix-blend-mode: difference;
+    filter: drop-shadow(0px 5px rgb(232, 255, 23))
+            drop-shadow(0px 5px rgb(255, 43, 244))
+            drop-shadow(0px 5px rgb(23, 255, 93));
+    animation-name: animation02;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+}
+
+.twelve:hover {
+    mix-blend-mode: normal;
+}
+
+
+.thirteen {
+    position: sticky;
+    top: 600px;
+    mix-blend-mode: difference;
+    filter: drop-shadow(5px 0px rgb(232, 255, 23))
+            drop-shadow(5px 0px rgb(255, 43, 244))
+            drop-shadow(5px 0px rgb(23, 255, 93));
+    animation-name: animation02;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+}
+
+.thirteen:hover {
+    mix-blend-mode: normal;
+}
+
+
+.fourteen {
+    position: sticky;
+    top: 600px;
+    mix-blend-mode: difference;
+    filter: drop-shadow(0px 5px rgb(232, 255, 23))
+            drop-shadow(0px 5px rgb(255, 43, 244))
+            drop-shadow(0px 5px rgb(23, 255, 93));
+    animation-name: animation02;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+}
+
+.fourteen:hover {
+    mix-blend-mode: normal;
+}
+
+
+@keyframes animation00 {
+    from {
+        background-image: linear-gradient(rgb(255, 43, 244),
+                                          rgb(151, 23, 255), 
+                                          rgb(23, 85, 255),
+                                          rgb(19, 255, 255),  
+                                          rgb(23, 255, 93),
+                                          rgb(185, 255, 23),
+                                          rgb(232, 255, 23));
+    }
+    to {
+        background-image: linear-gradient(rgb(232, 255, 23),
+                                          rgb(185, 255, 23), 
+                                          rgb(23, 255, 93),
+                                          rgb(19, 255, 255),  
+                                          rgb(23, 85, 255),
+                                          rgb(151, 23, 255),
+                                          rgb(255, 43, 244));
+    }
+}
+
+@keyframes animation01 {
+    0% {
+        filter: drop-shadow(-5px -5px rgb(232, 255, 23))
+                drop-shadow(-5px -5px rgb(255, 43, 244))
+                drop-shadow(-5px -5px rgb(23, 255, 93));
+    }
+    25% {
+        filter: drop-shadow(5px 5px rgb(232, 255, 23))
+                drop-shadow(5px 5px rgb(255, 43, 244))
+                drop-shadow(5px 5px rgb(23, 255, 93));
+    }
+    50% {
+        filter: drop-shadow(5px -5px rgb(232, 255, 23))
+                drop-shadow(5px -5px rgb(255, 43, 244))
+                drop-shadow(5px -5px rgb(23, 255, 93));
+    }
+    75% {
+        filter: drop-shadow(-5px 5px rgb(232, 255, 23))
+                drop-shadow(-5px 5px rgb(255, 43, 244))
+                drop-shadow(-5px 5px rgb(23, 255, 93));
+    }
+    100% {
+        filter: drop-shadow(-5px -5px rgb(232, 255, 23))
+                drop-shadow(-5px -5px rgb(255, 43, 244))
+                drop-shadow(-5px -5px rgb(23, 255, 93));
+    }
+}
+
+@keyframes animation02 {
+    0% {
+        transform: rotate(0deg);
+        filter: drop-shadow(0px -10px rgb(232, 255, 23))
+                drop-shadow(0px -10px rgb(255, 43, 244))
+                drop-shadow(0px -10px rgb(23, 255, 93));
+    }
+    50% {
+        transform: rotate(180deg);
+        filter: drop-shadow(0px 10px rgb(232, 255, 23))
+                drop-shadow(0px 10px rgb(255, 43, 244))
+                drop-shadow(0px 10px rgb(23, 255, 93));
+    }
+    100% {
+        transform: rotate(360deg);
+        filter: drop-shadow(0px -10px rgb(232, 255, 23))
+                drop-shadow(0px -10px rgb(255, 43, 244))
+                drop-shadow(0px -10px rgb(23, 255, 93));
+    }
+}
+
+@keyframes animation03 {
+    0% {
+        filter: drop-shadow(5px 5px rgb(255, 255, 255))
+                drop-shadow(5px 5px rgb(0, 0, 0))
+                drop-shadow(5px 5px rgb(255, 255, 255));
+    }
+    25% {
+        filter: drop-shadow(-5px 5px rgb(0, 0, 0))
+                drop-shadow(-5px 5px rgb(255, 255, 255))
+                drop-shadow(-5px 5px rgb(0, 0, 0));
+    }
+    50% {
+        filter: drop-shadow(-5px -5px rgb(255, 255, 255))
+                drop-shadow(-5px -5px rgb(0, 0, 0))
+                drop-shadow(-5px -5px rgb(255, 255, 255));
+    }
+    75% {
+        filter: drop-shadow(5px -5px rgb(0, 0, 0))
+                drop-shadow(5px -5px rgb(255, 255, 255))
+                drop-shadow(5px -5px rgb(0, 0, 0));
+    }
+    100% {
+        filter: drop-shadow(5px 5px rgb(255, 255, 255))
+                drop-shadow(5px 5px rgb(0, 0, 0))
+                drop-shadow(5px 5px rgb(255, 255, 255));
+    }
+}
+
+@media screen and (orientation: landscape) {
+    body {
+        margin: auto;
+
+    } 
+}
